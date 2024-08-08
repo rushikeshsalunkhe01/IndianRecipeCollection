@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Indian Recipes</title>
+    <link rel="icon" href="/foodpics/icon.food.png" type="image/x-icon">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            text-align: center;
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff6f61;
+            padding: 10px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+        }
+
+        .nav a:hover {
+            background-color: #e55d50;
+        }
+
+        .recipe-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 220px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        .card p {
+            padding: 10px;
+            font-size: 1em;
+            color: #181717;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Delicious Indian Recipes</h1>
+    </div>
+
+    <div class="nav">
+        <a href="/page/pani_puri.html">Pani Puri</a>
+        <a href="/page/rajam_chawal.html">Rajma Chawal</a>
+        <a href="/page/masala_dosa.html">Masala Dosa</a>
+        <a href="/page/paneer_tikka.html">Paneer Tikka</a>
+        <a href="/page/puran_poli.html">Puran Poli</a> <!-- New Link Added -->
+    </div>
+
+    <div class="recipe-cards">
+        <div class="card">
+            <a href="/page/pani_puri.html">
+                <img src="./foodpics/pani_puri.jpg" alt="Pani Puri">
+                <h3>Pani Puri</h3>
+                <p>Crispy puris filled with spicy water and savory fillings.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="/page/rajam_chawal.html">
+                <img src="./foodpics/rajma_chawal.jpg" alt="Rajma Chawal">
+                <h3>Rajma Chawal</h3>
+                <p>A hearty combination of red kidney beans and rice.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="/page/masala_dosa.html">
+                <img src="./foodpics/masala_dosa.jpg" alt="Masala Dosa">
+                <h3>Masala Dosa</h3>
+                <p>Crunchy dosa filled with a spicy potato mixture.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="/page/paneer_tikka.html">
+                <img src="./foodpics/paneer_tikka.jpg" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Grilled paneer cubes marinated with spices.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="/page/puran_poli.html">
+                <img src="./foodpics/puran_poli.jpg" alt="Puran Poli">
+                <h3>Puran Poli</h3>
+                <p>Sweet flatbread stuffed with a delicious lentil filling.</p>
+            </a>
+        </div> <!-- New Card Added -->
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Delicious Indian Recipes. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
